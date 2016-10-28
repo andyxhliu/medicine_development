@@ -180,3 +180,10 @@ Processing by ApplicationController#hello as HTML
 Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-10-28 17:56:54 +0100
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.2ms)
+Completed 200 OK in 61ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
