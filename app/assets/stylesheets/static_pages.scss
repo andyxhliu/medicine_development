@@ -3438,10 +3438,10 @@ to {
     padding: 9px 0px;
 }
 .car-prev.nav-icon {
-    background-image: url('../images/s-left.png');
+    background-image: image-url('s-left.png');
 } 
 .car-next.nav-icon {
-    background-image: url('../images/s-right.png');
+    background-image: image-url('s-right.png');
 }
 
 
@@ -4565,15 +4565,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-vimeo .lg-video-play {
-    background: url("../images/vimeo-play.png") no-repeat scroll 0 0 transparent;
+    background: image-url("vimeo-play.png") no-repeat scroll 0 0 transparent;
 }
 
 .lg-outer .lg-has-vimeo:hover .lg-video-play {
-    background: url("../images/vimeo-play.png") no-repeat scroll 0 -58px transparent;
+    background: image-url("vimeo-play.png") no-repeat scroll 0 -58px transparent;
 }
 
 .lg-outer .lg-has-html5 .lg-video-play {
-    background: transparent url("../images/video-play.png") no-repeat scroll 0 0;
+    background: transparent image-url("video-play.png") no-repeat scroll 0 0;
     height: 64px;
     margin-left: -32px;
     margin-top: -32px;
@@ -4586,11 +4586,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-has-youtube .lg-video-play {
-    background: url("../images/youtube-play.png") no-repeat scroll 0 0 transparent;
+    background: image-url("youtube-play.png") no-repeat scroll 0 0 transparent;
 }
 
 .lg-outer .lg-has-youtube:hover .lg-video-play {
-    background: url("../images/youtube-play.png") no-repeat scroll 0 -60px transparent;
+    background: image-url("youtube-play.png") no-repeat scroll 0 -60px transparent;
 }
 
 .lg-outer .lg-video-object {
@@ -4810,7 +4810,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-item {
-    background: url(../images/loading.gif) no-repeat scroll center center transparent;
+    background: image-url("loading.gif") no-repeat scroll center center transparent;
 }
 
 .lg-outer .lg-item,
@@ -5050,17 +5050,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         float: none;
     }
     .nav > li > .parent {
-        background-image: url("../images/downArrow.png");
+        background-image: image-url("downArrow.png");
         background-repeat: no-repeat;
         background-position: 95% 50%;
     }
     .nav li li .parent {
-        background-image: url("../images/downArrow.png");
+        background-image: image-url("downArrow.png");
         background-repeat: no-repeat;
         background-position: 95% 50%;
     }
     .nav li li .parent:hover {
-        background-image: url("../images/downArrow.png");
+        background-image: image-url("downArrow.png");
         background-repeat: no-repeat;
         background-position: 95% 50%;
     }
@@ -6892,7 +6892,7 @@ table {
      width: 38.2%;
      height: 100%;
      vertical-align: bottom;
-     background: url(../images/loading.gif) no-repeat scroll center center transparent;
+     background: image-url("loading.gif") no-repeat scroll center center transparent;
  }
  .blogimage a{
      position: absolute;
@@ -6908,7 +6908,7 @@ table {
      transition:opacity 0.4s ease-in-out;
      background-position:center center;
      background-repeat:no-repeat;
-     background-image:url('../images/link.png');
+     background-image:image-url('link.png');
      vertical-align: bottom;
  }
  .blogimage a:hover{
@@ -6960,7 +6960,7 @@ table {
  .reply_icon {
      width:31px;
      height:33px;
-     background-image:url(../images/reply.png);
+     background-image:image-url("reply.png");
      position:absolute;
      display:none;
      top:-22px;
@@ -7135,7 +7135,7 @@ table {
      width: 38.2%;
      height: 100%;
      vertical-align: bottom;
-     background: url(../images/loading.gif) no-repeat scroll center center transparent;
+     background: image-url("loading.gif") no-repeat scroll center center transparent;
  }
  .galleryimage a{
      position: absolute;
@@ -7151,7 +7151,7 @@ table {
      transition:opacity 0.4s ease-in-out;
      background-position:center center;
      background-repeat:no-repeat;
-     background-image:url('../images/zoom.png');
+     background-image:image-url('zoom.png');
      vertical-align: bottom;
  }
  .galleryimage a:hover{
@@ -7548,17 +7548,17 @@ table {
      font-weight: 700;
  }
  .active-header {
-  background: url(../images/minus.png);
+  background: image-url("minus.png");
   background-repeat: no-repeat;
   background-position: right 50%;
  }
  .inactive-header {
-  background: url(../images/plus.png);
+  background: image-url("plus.png");
   background-repeat: no-repeat;
   background-position: right 50%;
  }
  .inactive-header:hover {
-  background: url(../images/plus.png);
+  background: image-url("plus.png");
   background-repeat: no-repeat;
   background-position: right 50%;
  }
@@ -7645,7 +7645,7 @@ table {
      right:5px;
      top:5px;
      cursor:pointer;
-     background-image:url('../images/close-s.png');
+     background-image:image-url('close-s.png');
      background-repeat:no-repeat;
      background-position:center center;
      -webkit-transition:opacity 0.2s ease-in-out;
