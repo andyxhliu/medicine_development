@@ -26,7 +26,11 @@ body {
 /* Home Page Carousel */
 
 #navbar {
-    background-color: rgb(187, 215, 91)!important;
+    background-color: rgb(226, 255, 126)!important;
+}
+
+.navbar-inverse {
+    background-image: none!important;
 }
 
 header.carousel {
