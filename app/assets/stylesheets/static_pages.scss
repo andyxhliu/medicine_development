@@ -19,6 +19,14 @@ body {
     margin-bottom: 30px;
 }
 
+a .navbar-brand {
+    font-size: 35px;
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    line-height: 0.8;
+}
+
 .img-hover:hover {
     opacity: 0.8;
 }
@@ -26,7 +34,8 @@ body {
 /* Home Page Carousel */
 
 #navbar {
-    background-color: rgb(226, 255, 126)!important;
+    background-color: #B1D820!important;
+    height:100px;
 }
 
 .navbar-inverse {
@@ -36,7 +45,11 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-    color: black!important;
+    color: white!important;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: none!important;
 }
 
 header.carousel {
