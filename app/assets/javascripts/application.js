@@ -15,16 +15,3 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function(){       
-   var scroll_start = 0;
-   var startchange = $('#navbar');
-   var offset = startchange.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $('.nav').css('background-color', 'rgba(177,216,32,0.9)');
-       } else {
-          $('.nav').css('background-color', 'rgba(177,216,32)');
-       }
-   });
-});
