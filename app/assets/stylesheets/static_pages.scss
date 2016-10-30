@@ -55,6 +55,12 @@ body {
     text-shadow: none!important;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: white!important;
+    margin-top: 20px!important;
+    font-size: 18px!important;
+}
+
 header.carousel {
     height: 50%;
 }
